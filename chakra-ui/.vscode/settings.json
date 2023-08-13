@@ -1,0 +1,11 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#39c8c1",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#2da19c",
+    "statusBarItem.remoteBackground": "#39c8c1",
+    "statusBarItem.remoteForeground": "#15202b"
+  },
+  "peacock.color": "#39c8c1"
+}
