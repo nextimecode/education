@@ -1,4 +1,4 @@
-import { useCurrentLesson } from "../redux-store/slices/player";
+import { useCurrentLesson } from "../redux-store/hooks";
 
 export function HeaderRedux() {
   const { currentModule, currentLesson } = useCurrentLesson();

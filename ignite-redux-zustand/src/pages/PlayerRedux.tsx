@@ -4,8 +4,9 @@ import { HeaderRedux } from "../components/HeaderRedux";
 import { VideoRedux } from "../components/VideoRedux";
 import { ModuleRedux } from "../components/ModuleRedux";
 import { useAppSelector } from "../redux-store";
-import { useCurrentLesson } from "../redux-store/slices/player";
+
 import { useEffect } from "react";
+import { useCurrentLesson } from "../redux-store/hooks";
 
 export function PlayerRedux() {
   const modules = useAppSelector((state) => state.player.course.modules);
