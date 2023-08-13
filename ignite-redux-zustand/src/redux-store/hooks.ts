@@ -5,9 +5,9 @@ export const useCurrentLesson = () => {
     const { currentModuleIndex, currentLessonIndex } = state.player
 
     const currentModule = 
-      state.player.course.modules[currentModuleIndex]
+      state.player.course?.modules[currentModuleIndex]
     const currentLesson = 
-      currentModule.lessons[currentLessonIndex]
+      currentModule?.lessons[currentLessonIndex]
     
     return { currentModule, currentLesson }
   });
